@@ -13,3 +13,6 @@ fondoGeneracionUno[0].style.backgroundColor = "yellow";
 
 // Ejercicio 3 - Imprime por consola la URL de la página.
 console.log(document.URL);
+
+// Ejercicio 4 - Imprime por consola el dominio de la página.
+console.log(window.location.hostname);

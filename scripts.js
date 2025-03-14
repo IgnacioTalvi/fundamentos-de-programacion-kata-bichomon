@@ -19,3 +19,12 @@ console.log(window.location.hostname);
 
 // Ejercicio 5 - Imprime todos los nodos de imagen.
 console.log(document.querySelectorAll("img"));
+
+// Ejercicio 6 - Sustituye el atributo "src" de todas las imágenes por este "https://media.giphy.com/media/2v170e71aanfi/giphy.gif"
+const allImages = document.querySelectorAll("img");
+
+for (let i = 0; i < allImages.length; i++) {
+  allImages[i].src = "https://media.giphy.com/media/2v170e71aanfi/giphy.gif";
+}
+
+console.log(allImages.src);

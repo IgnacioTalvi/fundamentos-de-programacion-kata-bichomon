@@ -10,3 +10,6 @@ const fondoGeneracionUno = document.getElementsByClassName(
 );
 
 fondoGeneracionUno[0].style.backgroundColor = "yellow";
+
+// Ejercicio 3 - Imprime por consola la URL de la página.
+console.log(document.URL);

@@ -16,3 +16,6 @@ console.log(document.URL);
 
 // Ejercicio 4 - Imprime por consola el dominio de la página.
 console.log(window.location.hostname);
+
+// Ejercicio 5 - Imprime todos los nodos de imagen.
+console.log(document.querySelectorAll("img"));

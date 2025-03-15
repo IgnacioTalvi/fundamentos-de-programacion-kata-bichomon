@@ -27,4 +27,11 @@ for (let i = 0; i < allImages.length; i++) {
   allImages[i].src = "https://media.giphy.com/media/2v170e71aanfi/giphy.gif";
 }
 
-console.log(allImages.src);
+// Ejercicio 7 - Cambia el fondo de todos los infocard-lg-data text-muted para todos los Pokimon voladores itype flying
+const infocard = document.querySelectorAll(
+  "itype flying > infocard-lg-data text-muted"
+);
+
+for (let i = 0; i < infocard.length; i++) {
+  infocard[i].style.backgroundColor = "red";
+}
